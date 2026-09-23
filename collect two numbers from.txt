@@ -1,0 +1,20 @@
+collect two numbers from the user if any of the number is an even number mutilply them and if the result of the multiplication is an even number display a string that congratulation you are a genius if the result is not an even number display congratulations you tried
+
+if none of the number is an even number when you first collect the initial two numbers add them together and display congratulations you tried 
+
+assignment write the pseudo code for the problem statement 
+
+
+pseudocode 
+
+get numbers
+create two variables assign default values to them which is 0
+store the number in two variables
+use a statement to check if any of the number is  even 
+at the same time check if the numbers were never even 
+if the statement is true and the number is even it multiplies the numbers and print congratulations
+if not the statement is not true add the numbers and print you tried
+if the numbers were never even add the numbers ans print you tried 
+
+
+
