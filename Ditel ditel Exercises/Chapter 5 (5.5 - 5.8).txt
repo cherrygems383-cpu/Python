@@ -1,0 +1,42 @@
+Exercises
+5.5 Describe the four basic elements of counter-controlled iteration.
+
+answer 5.5 
+Elements of counter controlled iteration includes, a control variable or loop counter. 
+The initial value of the control variable .
+The increment by which the control variable is modified each time, also known as each iteration of the loop .
+the loop continuation condition that determines if the looping should continue.
+
+5.6 Compare and contrast the while and for iteration statements.
+
+answer 5.6
+The while loop statement can be use to implement any counter controlled loop. 
+The for statement specifies all the details of counter controlled iteration in it's header.
+at the start of execution the the for loop's control variable is initialized and declared when the loop condition is true the body runs then the increment expression runs.
+
+for (initialization;  loop continuation condition;  increment  ){
+statement ;
+}
+
+initialization ;
+while (loop continuation condition ){
+statements
+increment ;
+}
+
+
+5.7  If you need to execute the body of a loop at least once, would it be better to use a do…while
+statement or a while statement?
+
+ answer 5.7
+ It would be better to use a do while statement because the do while statement tests the loop continuation condition after the loop's body so it always execute at least once. 
+ For the while statement it tests the loop continuation condition at the beginning of the loop before executing the body so if the condition is not true it does not execute.
+ 
+ 
+ 5.8 Compare and contrast the break and continue statements.
+ 
+ answer 5.8
+ 
+ The beak statement when executed causes an immediate beak and exit the statement .
+ 
+ The continue statement when executed skips the loop's body and proceeds to the next iteration .
